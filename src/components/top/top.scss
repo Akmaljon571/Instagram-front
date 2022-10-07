@@ -1,0 +1,51 @@
+svg{
+    cursor: pointer;
+
+    &:hover{
+        background-color: rgb(231, 225, 225);
+    }
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+
+    svg{
+        box-sizing: content-box;
+        padding: 10px 12px;
+        margin-top: -5px;
+        color: rgb(97, 97, 97);
+    }
+}
+
+.top-left{
+    display: flex;
+    align-items: center;
+
+    span{
+        margin-left: 12px;
+        font-size: 12px;
+    }
+}
+
+.top-rigth{
+    svg{
+        padding: 10px 15px;
+    }
+
+    .window{
+        box-sizing: content-box;
+        padding: 12px 15px;
+        margin-top: -15px !important;
+    }
+
+    .exit{
+        &:hover{
+            background-color: rgb(247, 43, 43);
+            color: white;
+        }
+    }
+}

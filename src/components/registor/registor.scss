@@ -1,0 +1,29 @@
+.registor{
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+    margin-left: 400px;
+
+    .registr{
+        width: 350px !important;
+
+        span{
+            width: 150px !important;
+            margin: 0 auto !important;
+        }
+    }
+
+    &-top{
+        margin-bottom: -100px;
+    }
+
+    textarea{
+         outline: none;
+         padding: 10px;
+         border: 1px solid rgb(227, 227, 227);
+         border-radius: 3px;
+         background-color: #fafafa;
+    }
+
+}
+

@@ -1,9 +1,12 @@
-import Top from "./components/top/top";
+// import Top from "./components/top/top";
+import Header from "./page/header/header";
 
 function Public() {
     return ( 
         <>
-            <Top /> 
+           <div className="top_header">
+            <Header />
+           </div>
         </>
      );
 }
